@@ -2,14 +2,23 @@
     margin: 0%;
     padding: 0%;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+h2,footer{
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 100%;
+}
 header{
     width: 100%;
     padding: 10px 0px;
     background-color: #e8e6e6;
     display: flex;
     justify-content: end;
-
-
 }
 
 nav{
@@ -18,13 +27,15 @@ nav{
     gap: 20px;
 }
 
-#banner{
+#banner, #artigo{
     display: flex;
 
 }
 #bannerPeixe {
     width: 70%;
 }
-#logo {
+#logo, #agenda {
     width: 30%;
 }
+#bannerPeixe,#servicos{
+    width: 70%;}
